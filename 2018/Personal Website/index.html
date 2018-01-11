@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Christopher Barclay</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+<style>
+
+body, html {height: 100%;}
+
+body {
+	/* image and opacity */
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('pictures/microchip_b.jpg');
+	/* full height */
+	height: 100%;
+	/* center and scale image */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Nav Bar */
+.active {
+	border: 1px solid white;
+}
+
+.nav-cell a:link {
+    border: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-cell a:visited {
+	border: 0px;
+	text-decoration: none;
+    color: white;
+}
+
+/* mouse over link */
+.nav-cell a:hover {
+	text-decoration: none;
+	border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+.main-nav {
+	color: white;
+	font-size: 18px;
+	font-family: "Roboto", arial;
+	position: fixed;
+	right: 1%;
+	top: 1%;
+}
+
+.nav-cell {
+	padding: 5px;
+} 
+
+.center-stuff {
+	position: relative;
+	top: 20%;
+}
+
+.cjb {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+	border: 4px solid white;
+	border-radius: 30px;
+}
+
+.name {
+ 	color: white;
+ 	text-align: center;
+ 	font-family: "Roboto", arial;
+ 	/* text-shadow: 3px 3px 3px #000; 
+ 	-webkit-text-shadow: 3px 3px 3px #000;
+ 	-moz-text-shadow: 3px 3px 3px #000; */
+}
+
+.name2 {
+	color: white;
+	text-align: center;
+	font-family: "Roboto", arial;
+	line-height: 1.7;
+}
+
+@media all and (min-width: 960px) {
+	.name {
+    	font-size: 50px;
+  	}
+	.name2 {
+		font-size: 35px;
+	}
+	.cjb {
+		width: 250px;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+	.name{
+    	font-size: 5vw;
+  	}
+	.name2 {
+		font-size: 4vw;
+	}
+	.cjb {
+		width: 25vw;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+	.name{
+    	font-size: 6vw;
+  	}
+	.name2 {
+		font-size: 4.5vw;
+	}
+	.cjb {
+		width: 150px;
+		height: auto;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+	<!-- nav bar -->
+	<!-- change alignment of nav bar to CSS -->
+	<table class="main-nav" align="center" width="100%">
+		<tr><td align="right">
+
+		<table ><tr>
+			<td class="nav-cell active"><a href="#">Home</a></td>
+			<td class="borderless">&nbsp;</td>
+			<td class="nav-cell"><a href="#">About</a></td>
+			<td class="borderless">&nbsp;</td>
+			<td class="nav-cell"><a href="#">Portfolio</a></td>
+			<td class="borderless">&nbsp;</td>
+			<td class="nav-cell"><a href="#">Contact</a></td>
+		</tr></table>
+	</td></tr></table>
+
+	<div class="center-stuff">
+		<img src="pictures/cjb1.jpg" class="cjb" /><br/>
+		<div class="name">Christopher Barclay</div>
+		<div class="name2">&#151; Front End Developer &#151;</div>
+	</div>
+
+</body>
