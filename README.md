@@ -1,3 +1,3 @@
 # Web-Dev-Projects
 
-Learning Web Development through projects...
+Web Development learning projects.
